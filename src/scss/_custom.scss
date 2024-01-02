@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  text-align: center; 
+  margin-bottom: 20px;
+}
+
+.body-responsive {
+  width: 100%;
+}
+
+.App {
+  align-items: center;
+  justify-content: center;
+}
+
+.calendar {
+  border-collapse: collapse;
+  width: 100%;
+  position: relative;
+}
+
+.day {
+  border: 1px solid #ddd;
+  padding: 10px;
+  cursor: pointer;
+  position: relative;
+  min-width: 170px;
+  height: 150px;
+  background-color: #f0f0f0;
+}
+
+.day-label {
+  position: absolute;
+  top: 0;
+  color: black;
+  font-weight: bold;
+}
+
+.thead-day {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.event {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+  color: white;
+}
+
+.event span {
+  margin-top: 3px;
+  margin-left: 8px;
+  margin-bottom: 1px;
+}
+
+.event-buttons button {
+  border-color: transparent;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+}
+
+.circle-button {
+  border-color: transparent;
+  color: green;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.circle-button:active {
+  border-color: transparent !important;
+}
+
+.circle-button svg {
+  width: 150px;
+  height: 150px;
+}
+
+.table-name {
+  margin-top: -3px !important;
+}
+
+.thead-left {
+  background-color: transparent !important;
+}
+
+button:focus {
+  outline: none;
+}
+
+.first-row {
+  width: 90%;
+  text-align: left;
+  background-color: transparent;
+}
+
+.second-row {
+  background-color: rgba(0, 0, 0, 0.7); /* Adjust the last value (alpha) for transparency */
+  border-color: transparent;
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+  height: 28px !important;
+}
+
+.action {
+  color: white;
+  background-color: transparent;
+  border-color: transparent;
+  height: 20px;
+}
+
+.action svg {
+  margin-top: -12px;
+}
